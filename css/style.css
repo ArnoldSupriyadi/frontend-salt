@@ -28,19 +28,29 @@ body {
 }
 
 .carousel-cell {
-  height: 600px;
   margin-right: 10px;
   background: #8c8;
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
 
+.btn-close {
+  background-color: red;
+  top: 4%;
+  left: 90%;
+}
 /* cell number */
-.carousel-cell:before {
+/* .carousel-cell:before {
   display: block;
   text-align: center;
   content: counter(carousel-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
+} */
+
+@media (max-width: 575.98px) {
+  p {
+    font-size: 0.6em;
+  }
 }
