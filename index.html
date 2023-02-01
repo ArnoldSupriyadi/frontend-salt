@@ -9,8 +9,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- End of Bootstrap CSS -->
 
+    <!-- css hover -->
+    <link rel="stylesheet" href="css/hover.css" />
+    <!-- end of css hover -->
+
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- flickity.css -->
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css" />
+    <!-- End of flickity.css -->
+
     <title>Document</title>
   </head>
   <body>
@@ -87,29 +96,96 @@
     <section class="section-portfolio">
       <div class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-md-4 portfolio-part">
-            <div class="portfolio-content mt-4">
-              <img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid" />
+          <div class="col-md-5 portfolio-part">
+            <div class="portfolio-content mt-2">
+              <a href="#projectjalansingapura" data-bs-toggle="modal" role="button"><img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid hvr-bounce-in" /></a>
+
+              <!-- Modal -->
+              <div class="modal fade" id="projectjalansingapura" aria-hidden="true" aria-labelledby="projectjalansingapuraLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                  <div class="modal-content">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="modal-header">
+                            <div class="modal-title fs-5" id="exampleModalToggleLabel">
+                              <h1>Everlasting Chic</h1>
+                              <small>@ Northshore</small>
+                              <p>
+                                Our professionally trained designers will be here to listen to your lifestyle needs & requirements. We will then propose a suitable layout based on your lifestyleOur professionally trained designers will be
+                                here to listen to your lifestyle needs & requirements. We will then propose a suitable layout based on your lifestyle
+                              </p>
+                            </div>
+
+                            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="portfolio-content mt-4">
+                        <!-- Flickity HTML init -->
+                        <div class="carousel" data-flickity='{ "wrapAround": true , "pageDots": false,  "prevNextButtons" : false }'>
+                          <div class="">
+                            <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+                          </div>
+                          <div class="">
+                            <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+                          </div>
+                          <div class="">
+                            <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+                          </div>
+                          <div class="">
+                            <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+                          </div>
+                          <div class="">
+                            <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Modal -->
             </div>
 
             <div class="portfolio-content mt-4">
-              <img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid" />
+              <a href="#"><img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid hvr-bounce-in" /></a>
             </div>
 
             <div class="portfolio-content mt-4">
-              <img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid" />
+              <a href="#"><img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid hvr-bounce-in" /></a>
             </div>
 
             <div class="portfolio-content mt-4">
-              <img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid" />
+              <a href="#"><img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid hvr-bounce-in" /></a>
             </div>
 
             <div class="portfolio-content mt-4">
-              <img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid" />
+              <a href="#"><img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid hvr-bounce-in" /></a>
             </div>
+          </div>
 
-            <div class="portfolio-content mt-4">
-              <img src="img/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg" alt="salt" class="img-fluid" />
+          <div class="portfolio-content mt-4">
+            <!-- Flickity HTML init -->
+            <div class="carousel" data-flickity='{ "wrapAround": true , "pageDots": false,  "prevNextButtons" : false }'>
+              <div class="">
+                <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+              </div>
+              <div class="">
+                <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+              </div>
+              <div class="">
+                <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+              </div>
+              <div class="">
+                <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+              </div>
+              <div class="">
+                <img src="img/demo-creative-agency-work-single-1.jpeg" class="carousel-cell" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -121,10 +197,23 @@
     <link rel="stylesheet" href="js/bootstrap.min.js" />
     <!-- End of Bootstrap JS -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- script js -->
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <!-- script js -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> -->
     <script>
-      ScrollReveal().reveal(".portfolio-content", { delay: 300 });
+      var elem = document.querySelector(".carousel");
+      var flkty = new Flickity(elem, {
+        wrapAround: true,
+      });
+    </script>
+    <script>
+      // ScrollReveal().reveal(".portfolio-content", { delay: 300 });
     </script>
   </body>
 </html>
