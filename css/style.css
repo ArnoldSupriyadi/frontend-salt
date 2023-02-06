@@ -49,8 +49,16 @@ body {
   color: white;
 } */
 
+.modal-dialog.modal-dialog-centered.modal-fullscreen {
+  padding: 2rem;
+}
+
 @media (max-width: 575.98px) {
   p {
     font-size: 0.6em;
+  }
+
+  .item {
+    width: 250px !important;
   }
 }
