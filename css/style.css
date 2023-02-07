@@ -53,6 +53,18 @@ body {
   padding: 2rem;
 }
 
+.owl-theme .owl-nav {
+  top: 5%;
+  position: absolute;
+  color: #fff;
+  font-size: 12rem;
+  opacity: 0.8;
+}
+
+.owl-next {
+  position: relative;
+  left: 830%;
+}
 @media (max-width: 575.98px) {
   p {
     font-size: 0.6em;
@@ -60,5 +72,17 @@ body {
 
   .item {
     width: 250px !important;
+  }
+  .owl-theme .owl-nav {
+    top: 0 !important;
+    position: inherit !important;
+    color: #000;
+    font-size: 18px;
+    opacity: 1;
+  }
+
+  .owl-next {
+    position: none;
+    left: 0%;
   }
 }
